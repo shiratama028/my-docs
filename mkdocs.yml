@@ -1,0 +1,8 @@
+site_name: My Docs
+nav:
+  - Home: index.md
+  - Maya: maya.md
+  - ZBrush: zbrush.md
+  - Nomad: nomad.md
+theme:
+  name: material
