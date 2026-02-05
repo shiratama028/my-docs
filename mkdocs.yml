@@ -8,7 +8,9 @@ nav:
   - Blender:
         - Overview: Blender/index.md
         - Export: maya/export.md
-  - ZBrush: zbrush.md
+  - ZBrush: ZBrush.md
+        - Overview: ZBrush/index.md
+        - Export: ZBrush/export.md
   - Nomad: nomad.md
 theme:
   name: material
