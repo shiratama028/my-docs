@@ -7,3 +7,16 @@ nav:
   - Nomad: nomad.md
 theme:
   name: material
+
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
