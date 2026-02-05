@@ -1,7 +1,7 @@
 # My 3DCG Knowledge Base
 
-ZBrushのメモ
+Mayaのメモ
 
 ## Contents
 
-- [Maya](Decimation Master.md)
+- [ZBrush](test.md)

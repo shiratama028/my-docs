@@ -6,6 +6,6 @@ Maya / Blender / ZBrush / Nomad / AfterEffects / メモ集。
 
 - [Maya](maya.md)
 - [Blender](Blender.md)
-- [ZBrush](Zbrush.md)
+- [ZBrush](ZBrush.md)
 - [Nomad Sculpt](nomad.md)
 - [AE](AE.md)
