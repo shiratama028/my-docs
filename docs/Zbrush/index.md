@@ -4,4 +4,4 @@ ZBrushのメモ
 
 ## Contents
 
-- [ZBrush](Zbrush.md)
+- [Decimation Master](Decimation Master.md)
