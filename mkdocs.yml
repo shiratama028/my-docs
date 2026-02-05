@@ -1,3 +1,4 @@
+site_url: ""
 site_name: My Docs
 nav:
   - Home: index.md
