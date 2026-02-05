@@ -10,7 +10,7 @@ nav:
         - Export: maya/export.md
   - ZBrush: ZBrush.md
         - Overview: ZBrush/index.md
-        - Export: ZBrush/export.md
+        - Export: ZBrush/Decimation Master.md
   - Nomad: nomad.md
 theme:
   name: material
