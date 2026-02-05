@@ -2,11 +2,18 @@ site_url: ""
 site_name: My Docs
 nav:
   - Home: index.md
-  - Maya: maya.md
+  - Maya:
+        - Overview: maya/index.md
+        - Export: maya/test.md
+  - Blender:
+        - Overview: Blender/index.md
+        - Export: maya/export.md
   - ZBrush: zbrush.md
   - Nomad: nomad.md
 theme:
   name: material
+
+
 
 
 theme:
