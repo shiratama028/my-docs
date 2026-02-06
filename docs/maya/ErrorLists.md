@@ -3,4 +3,4 @@
 | エラー | 対処 |
 |-------|------|
 | ModuleNotFoundError | モジュールタイプのスクリプト入れようとするとよくある<br>モジュールフォルダファイルに記載されてるパスにファイル全部入れるとなんとかなる |
-| テクスチャが作れない | 参考サイトhttps://tm8r.hateblo.jp/entry/2023/05/29/101551<br>[これ](maya/CreateTex_Error.md)貼り付けて実行|
+| テクスチャが作れない | 参考サイトhttps://tm8r.hateblo.jp/entry/2023/05/29/101551<br>[これ](CreateTex_Error)貼り付けて実行|
