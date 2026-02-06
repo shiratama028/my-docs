@@ -1,18 +1,25 @@
 site_url: ""
 site_name: My Docs
+
 nav:
   - Home: index.md
+
   - Maya:
-        - Overview: maya/index.md
-        - Export: maya/test.md
+      - Overview: maya/index.md
+      - Export: maya/test.md
+
   - Blender:
-        - Overview: Blender/index.md
-        - Export: Blender/Blender.md
-  - ZBrush: ZBrush.md
-        - Overview: ZBrush/index.md
-        - Export: ZBrush/Decimation Master.md
-        - test: ZBrush/test.md
-  - Nomad: nomad.md
+      - Overview: Blender/index.md
+      - Export: Blender/Blender.md
+
+  - ZBrush:
+      - Overview: ZBrush/index.md
+      - Export: ZBrush/Decimation_Master.md
+      - Test: ZBrush/test.md
+
+  - Nomad:
+      - Overview: nomad.md
+
 theme:
   name: material
 
