@@ -11,6 +11,7 @@ nav:
   - ZBrush: ZBrush.md
         - Overview: ZBrush/index.md
         - Export: ZBrush/Decimation Master.md
+        - test: test.md
   - Nomad: nomad.md
 theme:
   name: material
