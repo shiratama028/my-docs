@@ -3,9 +3,22 @@
 | エラー | 対処 |
 |-------|------|
 | ModuleNotFoundError | モジュールタイプのスクリプト入れようとするとよくある<br>モジュールフォルダファイルに記載されてるパスにファイル全部入れるとなんとかなる |
-|テクスチャファイルが作れない|https://tm8r.hateblo.jp/entry/2023/05/29/101551<br>from maya import cmds<br><br>def fix_invalid_default_texture_ist():<br>    default_texture_list = cmds.ls(type="defaultTextureList")<br>
-    if not default_texture_list:<br>        return<br><br>    default_texture_list = default_texture_list[0]<br>    if not cmds.lockNode(default_texture_list, q=True, lu=True)[0]:<br>        return<br>
-    cmds.lockNode(default_texture_list, l=False, lu=False)<br><br>fix_invalid_default_texture_ist()|
+|テクスチャファイルが作れない|https://tm8r.hateblo.jp/entry/2023/05/29/101551<br><pre><code class="language-python">
+from maya import cmds
+
+def fix_invalid_default_texture_list():
+    default_texture_list = cmds.ls(type="defaultTextureList")
+    if not default_texture_list:
+        return
+
+    default_texture_list = default_texture_list[0]
+    if not cmds.lockNode(default_texture_list, q=True, lu=True)[0]:
+        return
+
+    cmds.lockNode(default_texture_list, l=False, lu=False)
+
+fix_invalid_default_texture_list()
+</code></pre> |
 
 |------|------|---------|
 | 価格 | 有料 | 無料 |
