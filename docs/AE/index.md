@@ -1,6 +1,4 @@
-# My 3DCG Knowledge Base
-
-AfterEffectsのメモ
+# AfterEffectsのメモ
 
 ## Contents
 
