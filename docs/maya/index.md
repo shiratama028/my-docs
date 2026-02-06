@@ -4,6 +4,7 @@ Mayaのメモ
 
 ## Contents
 
+- [よくあるエラー](ErrorLists.md)
 - [ジンバルロックの回避](Ginbal_Lock.md)
-- [Lensの目安](camera_Lens.md)
+- [カメラレンズの目安](camera_Lens.md)
 - [test](test.md)
