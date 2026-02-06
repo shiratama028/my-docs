@@ -6,6 +6,8 @@ nav:
 
   - Maya Tips:
       - Overview: maya/index.md
+      - ジンバルロックの回避: maya/Ginbal_Lock.md
+      - カメラレンズの目安: maya/camera_Lens.md
       - Export: maya/test.md
 
   - Blender Tips:
