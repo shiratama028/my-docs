@@ -3,7 +3,7 @@
 | エラー | 対処 |
 |-------|------|
 | ModuleNotFoundError | モジュールタイプのスクリプト入れようとするとよくある<br>モジュールフォルダファイルに記載されてるパスにファイル全部入れるとなんとかなる |
-|テクスチャファイルが作れない|https://tm8r.hateblo.jp/entry/2023/05/29/101551<br><pre><code class="language-python">
+|テクスチャファイルが作れない|<pre><code class="language-python">
 from maya import cmds
 
 def fix_invalid_default_texture_list():
