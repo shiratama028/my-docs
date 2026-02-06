@@ -18,35 +18,34 @@ fix_invalid_default_texture_ist()
 
 ## ma保存できない
 
-string $unknownNodes[] = `lsType unknown`;
- for($node in $unknownNodes){
- if($node=="<done>")
- break;
- if(`objExists $node`){ 
- int $lockState[] = `lockNode -q -l $node`;
- if($lockState[0]==1)
- lockNode -l off $node;
- delete $node;
- }
- } 
+string $unknownNodes[] = `lsType unknown`;<br>
+ for($node in $unknownNodes){<br>
+ if($node=="<done>")<br>
+ break;<br>
+ if(`objExists $node`){ <br>
+ int $lockState[] = `lockNode -q -l $node`;<br>
+ if($lockState[0]==1)<br>
+ lockNode -l off $node;<br>
+ delete $node;<br>
+ }<br>
+ } <br>
  
  ## 消せないカメラを消す
  対象のカメラを選択して下記を実行
  
- string $selection[] = `ls -sl -dag -type camera`;  
-string $cameras[]; 
-for ($each in $selection) 
-{ 
-if(`objectType -isType "camera" $each`) 
-{ 
-$cameras[(size($cameras))] = $each; 
-camera -e -startupCamera false $each; 
-delete $each; 
-} 
-else 
-{ 
-warning("selected object isn't a camera"); 
-} 
-};
-
+ string $selection[] = `ls -sl -dag -type camera`;<br>
+string $cameras[];<br>
+for ($each in $selection)<br>
+{<br>
+if(`objectType -isType "camera" $each`)<br>
+{<br>
+$cameras[(size($cameras))] = $each;<br>
+camera -e -startupCamera false $each;<br>
+delete $each;<br>
+}<br>
+else<br>
+{<br>
+warning("selected object isn't a camera");<br>
+}<br>
+};<br>
  
