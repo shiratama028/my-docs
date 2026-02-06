@@ -3,15 +3,15 @@
 from maya import cmds
 
 def fix_invalid_default_texture_ist():
-    default_texture_list = cmds.ls(type="defaultTextureList")
-    if not default_texture_list:
+　default_texture_list = cmds.ls(type="defaultTextureList")
+　if not default_texture_list:
 　　　return
 
-    default_texture_list = default_texture_list[0]
-    if not cmds.lockNode(default_texture_list, q=True, lu=True)[0]:
+　default_texture_list = default_texture_list[0]
+　if not cmds.lockNode(default_texture_list, q=True, lu=True)[0]:
 　　　return
 
-    cmds.lockNode(default_texture_list, l=False, lu=False)
+　cmds.lockNode(default_texture_list, l=False, lu=False)
 
 fix_invalid_default_texture_ist()
 
@@ -30,4 +30,23 @@ string $unknownNodes[] = `lsType unknown`;
  }
  } 
  
- ##消せないカメラを消す
+ ## 消せないカメラを消す
+ 対象のカメラを選択して下記を実行
+ 
+ string $selection[] = `ls -sl -dag -type camera`;  
+string $cameras[]; 
+for ($each in $selection) 
+{ 
+if(`objectType -isType "camera" $each`) 
+{ 
+$cameras[(size($cameras))] = $each; 
+camera -e -startupCamera false $each; 
+delete $each; 
+} 
+else 
+{ 
+warning("selected object isn't a camera"); 
+} 
+};
+
+ 
