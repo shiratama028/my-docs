@@ -7,11 +7,11 @@ nav:
         - Export: maya/test.md
   - Blender:
         - Overview: Blender/index.md
-        - Export: maya/export.md
+        - Export: Blender/Blender.md
   - ZBrush: ZBrush.md
         - Overview: ZBrush/index.md
         - Export: ZBrush/Decimation Master.md
-        - test: test.md
+        - test: ZBrush/test.md
   - Nomad: nomad.md
 theme:
   name: material
