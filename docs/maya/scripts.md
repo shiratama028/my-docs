@@ -30,7 +30,7 @@ string $unknownNodes[] = `lsType unknown`;<br>
  }<br>
  } <br>
  
- ## 消せないカメラを消す
+## 消せないカメラを消す
  対象のカメラを選択して下記を実行
  
  string $selection[] = `ls -sl -dag -type camera`;<br>
