@@ -8,15 +8,19 @@ nav:
       - Overview: maya/index.md
       - Export: maya/test.md
 
-  - Blender:
+  - Blender Tips:
       - Overview: Blender/index.md
       - Export: Blender/Blender.md
 
-  - ZBrush:
+  - ZBrush Tips:
       - Overview: ZBrush/index.md
       - Export: ZBrush/Decimation_Master.md
       - Test: ZBrush/test.md
 
+  - AE Tips:
+      - Overview: AE/index.md
+      - AutoShake: AE/AutoShake.md
+      
   - Nomad:
       - Overview: nomad.md
 
