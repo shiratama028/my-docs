@@ -2,9 +2,9 @@
 
 | エラー | 対処 |
 |-------|------|
-| ModuleNotFoundError | モジュールタイプのスクリプト入れようとするとよくある<br>
+| ModuleNotFoundError | モジュールタイプのスクリプト入れようとするとよくある
 モジュールフォルダファイルに記載されてるパスにファイル全部入れるとなんとかなる |
-|テクスチャファイルが作れない|https://tm8r.hateblo.jp/entry/2023/05/29/101551<br>
+|テクスチャファイルが作れない|https://tm8r.hateblo.jp/entry/2023/05/29/101551
 from maya import cmds<br>
 
 def fix_invalid_default_texture_ist():<br>
