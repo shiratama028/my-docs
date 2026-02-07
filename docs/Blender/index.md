@@ -4,4 +4,4 @@ Blenderのメモ
 
 ## Contents
 
-- [Blender](Blender.md)
+- [基本情報](Blender.md)
